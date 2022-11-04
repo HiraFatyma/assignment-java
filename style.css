@@ -1,0 +1,32 @@
+p{
+    font-size: 28px;
+    background-color: pink;
+    border: 5px solid green;
+    border-style: dotted;
+    text-align: center;
+    animation: slide 4s ease-in-out ;
+    animation-iteration-count: infinite;
+}
+@keyframes slide {
+    from{
+        margin-left: 0px;
+
+    }
+    
+    to{
+        margin-left: 700px;
+    }
+    from{
+        margin-right: 0px;
+
+    }
+    
+    to{
+        margin-right: 700px;
+    }
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+
